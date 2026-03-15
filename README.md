@@ -18,5 +18,12 @@ Third, obviously run the script.
 Does the buttons looks confusing? I agree, it does. Anyway
 To make an input and automate it, for example, the Space key, put in "{Space}", customize the interval(delay between inputs) or/and Duration(optional, makes it stop after for example, 100ms and click 'Add input', it will appear on the 'Automation Inputs' table and you should click on it, after it turns blue(selected), press 'Update Selected'
 Remove selected and Clear all inputs says what it does, however, it does not clear the 'Run only when active process matches' box.
-To make it only work when a specific process is 'focused on', modify the 'Run only when active process matches' tab and put the Process name you want it to work on, to get a program or games Process name, you can press 'CTRL + SHIFT + ESC' to open task manager. Right click the "Name" section
+
+To make it only work when a specific process is 'focused on', modify the 'Run only when active process matches' tab and put the Process name you want it to work on, to get a program or games Process name, you can press 'CTRL + SHIFT + ESC' to open task manager. Right click the "Name" section and click 'Process name', if the process name does not appear, check its child process
 ![Alt text for screen readers](taskmgr.png)
+Then after putting the process name, click 'Apply filter'
+
+What does the 'Start Recording' do you may ask? It's a keylogger. Yes, but you control it.. What's its sole purpose? To convert your keyboard input into something you can put on the 'Sequence' textbox. Use 'Copy Recording' after
+
+Hide to tray makes it well, obviously put it to system tray (the thing on your taskbar with the ^ icon)
+Exit application makes it commit taskkill /f /im
