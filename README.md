@@ -15,7 +15,7 @@ First, you'll need to install [AutoHotkey](https://www.autohotkey.com/), and dow
 Second, go over to release, and download the .AHK file
 Third, obviously run the script.
 
-*Watch the [usage video](https://github.com/softskyrave-lgtm/AutoSendKey/blob/main/vidusage.mp4) instead if you want to actual see it being used
+*Watch(Download) the [usage video](https://github.com/softskyrave-lgtm/AutoSendKey/blob/main/vidusage.mp4) instead if you want to actual see it being used
 
 Does the buttons looks confusing? I agree, it does. Anyway
 To make an input and automate it, for example, the Space key, put in "{Space}", customize the interval(delay between inputs) or/and Duration(optional, makes it stop after for example, 100ms and click 'Add input', it will appear on the 'Automation Inputs' table and you should click on it, after it turns blue(selected), press 'Update Selected'
